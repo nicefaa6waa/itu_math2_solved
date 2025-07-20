@@ -1,4 +1,4 @@
-# Calculus Problems Solutions - Riyazi Analiz Məsələləri
+# Calculus Problems Solutions - ACING MATH 2
 
 ## Problem 1
 **Fill in the blank with the best fit:**
