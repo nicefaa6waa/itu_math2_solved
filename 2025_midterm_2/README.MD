@@ -8,8 +8,8 @@
 
 **Answer:** **(c) $\\frac{dy}{dx}$**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 The slope of the tangent line to a polar curve $r = f(\\theta)$ at a given point is defined by $\\frac{dy}{dx}$. This is derived using the parametric equations for polar coordinates:
 $x = r\\cos\\theta = f(\\theta)\\cos\\theta$
@@ -17,7 +17,7 @@ $y = r\\sin\\theta = f(\\theta)\\sin\\theta$
 
 Then, $\\frac{dy}{dx} = \\frac{dy/d\\theta}{dx/d\\theta}$.
 
-\</details\>
+</details>
 
 -----
 
