@@ -174,24 +174,25 @@ $$\theta = \cos^{-1}\left(\frac{3}{\sqrt{35}}\right)$$
 
 ## Problem 7
 
-**What are all values of $b$ for which the volume of the parallelepiped formed by the vectors $\\mathbf{u} = \\langle b, 1, -1 \\rangle$, $\\mathbf{v} = \\langle -2, 3, b \\rangle$, and $\\mathbf{w} = \\langle 0, 4, 0 \\rangle$ is 8 cubic units?**
+**What are all values of $b$ for which the volume of the parallelepiped formed by the vectors $\mathbf{u} = \langle b, 1, -1 \rangle$, $\mathbf{v} = \langle -2, 3, b \rangle$, and $\mathbf{w} = \langle 0, 4, 0 \rangle$ is 8 cubic units?**
 
-**Answer:** **(a) ${-2, 0, 2}$**
+**Answer:** **(a) $\{-2, 0, 2\}$**
 
 <details>
 <summary>Solution Steps</summary>
 
-**Step 1:** The volume of a parallelepiped formed by three vectors $\\mathbf{u}, \\mathbf{v}, \\mathbf{w}$ is given by the absolute value of their scalar triple product: $V = |\\mathbf{u} \\cdot (\\mathbf{v} \\times \\mathbf{w})|$.
+**Step 1:** The volume of a parallelepiped formed by three vectors $\mathbf{u}, \mathbf{v}, \mathbf{w}$ is given by the absolute value of their scalar triple product: $V = |\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})|$.
 
-**Step 2:** Calculate the cross product $\\mathbf{v} \\times \\mathbf{w}$.
-$$ \\mathbf{v} \\times \\mathbf{w} = \\begin{vmatrix}
-\\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\
-\-2 & 3 & b \\
+**Step 2:** Calculate the cross product $\mathbf{v} \times \mathbf{w}$.
+$$\mathbf{v} \times \mathbf{w} = \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+-2 & 3 & b \\
 0 & 4 & 0
-\\end{vmatrix} $$$$ = \\mathbf{i}((3)(0) - (b)(4)) - \\mathbf{j}((-2)(0) - (b)(0)) + \\mathbf{k}((-2)(4) - (3)(0))$$
+\end{vmatrix}$$
+$$= \mathbf{i}((3)(0) - (b)(4)) - \mathbf{j}((-2)(0) - (b)(0)) + \mathbf{k}((-2)(4) - (3)(0))$$
 $$= \mathbf{i}(-4b) - \mathbf{j}(0) + \mathbf{k}(-8) = \langle -4b, 0, -8 \rangle$$
 
-**Step 3:** Calculate the dot product $\\mathbf{u} \\cdot (\\mathbf{v} \\times \\mathbf{w})$.
+**Step 3:** Calculate the dot product $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$.
 $$\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w}) = \langle b, 1, -1 \rangle \cdot \langle -4b, 0, -8 \rangle$$
 $$= (b)(-4b) + (1)(0) + (-1)(-8) = -4b^2 + 0 + 8 = -4b^2 + 8$$
 
@@ -204,7 +205,7 @@ $$-4b^2 = 0 \implies b^2 = 0 \implies b = 0$$
 $$-4b^2 = -16 \implies b^2 = 4 \implies b = \pm 2$$
 
 **Step 5:** Combine the results.
-The values of $b$ are ${-2, 0, 2}$.
+The values of $b$ are $\{-2, 0, 2\}$.
 
 </details>
 
@@ -212,7 +213,7 @@ The values of $b$ are ${-2, 0, 2}$.
 
 ## Problem 8
 
-**Find the equation of the plane that is parallel to the vector $\\mathbf{u} = \\mathbf{i} - \\mathbf{k}$ and contains the line $L$ given by the parametric equations $x = 1 - 2t, y = 4 + 3t, z = 9 - 4t$.**
+**Find the equation of the plane that is parallel to the vector $\mathbf{u} = \mathbf{i} - \mathbf{k}$ and contains the line $L$ given by the parametric equations $x = 1 - 2t, y = 4 + 3t, z = 9 - 4t$.**
 
 **Answer:** **(a) $x + 2y + z = 18$**
 
@@ -220,31 +221,31 @@ The values of $b$ are ${-2, 0, 2}$.
 <summary>Solution Steps</summary>
 
 **Step 1:** Identify a normal vector to the plane.
-A plane's normal vector $\\mathbf{n}$ must be perpendicular to any vector lying in the plane.
-The line $L$ lies in the plane, so its direction vector $\\mathbf{d}\_L = \\langle -2, 3, -4 \\rangle$ is in the plane.
-The plane is also parallel to $\\mathbf{u} = \\langle 1, 0, -1 \\rangle$.
-Therefore, the normal vector $\\mathbf{n}$ is perpendicular to both $\\mathbf{d}\_L$ and $\\mathbf{u}$. We can find $\\mathbf{n}$ by taking their cross product.
+A plane's normal vector $\mathbf{n}$ must be perpendicular to any vector lying in the plane.
+The line $L$ lies in the plane, so its direction vector $\mathbf{d}_L = \langle -2, 3, -4 \rangle$ is in the plane.
+The plane is also parallel to $\mathbf{u} = \langle 1, 0, -1 \rangle$.
+Therefore, the normal vector $\mathbf{n}$ is perpendicular to both $\mathbf{d}_L$ and $\mathbf{u}$. We can find $\mathbf{n}$ by taking their cross product.
 
-$$ \\mathbf{n} = \\mathbf{u} \\times \\mathbf{d}\_L = \\begin{vmatrix}
-\\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\
+$$\mathbf{n} = \mathbf{u} \times \mathbf{d}_L = \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
 1 & 0 & -1 \\
-\-2 & 3 & -4
-\\end{vmatrix} $$$$ = \\mathbf{i}((0)(-4) - (-1)(3)) - \\mathbf{j}((1)(-4) - (-1)(-2)) + \\mathbf{k}((1)(3) - (0)(-2))$$
+-2 & 3 & -4
+\end{vmatrix}$$
+$$= \mathbf{i}((0)(-4) - (-1)(3)) - \mathbf{j}((1)(-4) - (-1)(-2)) + \mathbf{k}((1)(3) - (0)(-2))$$
 $$= \mathbf{i}(3) - \mathbf{j}(-4 - 2) + \mathbf{k}(3) = \langle 3, 6, 3 \rangle$$
-We can use a simpler normal vector proportional to this, such as $\\mathbf{n'} = \\langle 1, 2, 1 \\rangle$ (by dividing by 3).
+We can use a simpler normal vector proportional to this, such as $\mathbf{n'} = \langle 1, 2, 1 \rangle$ (by dividing by 3).
 
 **Step 2:** Find a point on the plane.
-Since the line $L$ is in the plane, any point on $L$ is on the plane. Let $t=0$ in the parametric equations of $L$ to find a point $P\_0(1, 4, 9)$.
+Since the line $L$ is in the plane, any point on $L$ is on the plane. Let $t=0$ in the parametric equations of $L$ to find a point $P_0(1, 4, 9)$.
 
-**Step 3:** Write the equation of the plane using the normal vector $\\mathbf{n'} = \\langle A, B, C \\rangle = \\langle 1, 2, 1 \\rangle$ and the point $P\_0(x\_0, y\_0, z\_0) = (1, 4, 9)$.
-The equation of a plane is $A(x - x\_0) + B(y - y\_0) + C(z - z\_0) = 0$.
+**Step 3:** Write the equation of the plane using the normal vector $\mathbf{n'} = \langle A, B, C \rangle = \langle 1, 2, 1 \rangle$ and the point $P_0(x_0, y_0, z_0) = (1, 4, 9)$.
+The equation of a plane is $A(x - x_0) + B(y - y_0) + C(z - z_0) = 0$.
 $$1(x - 1) + 2(y - 4) + 1(z - 9) = 0$$
 $$x - 1 + 2y - 8 + z - 9 = 0$$
 $$x + 2y + z = 1 + 8 + 9$$
 $$x + 2y + z = 18$$
 
 </details>
-
 -----
 
 ## Problem 9
