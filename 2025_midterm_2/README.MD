@@ -27,8 +27,8 @@ Then, $\\frac{dy}{dx} = \\frac{dy/d\\theta}{dx/d\\theta}$.
 
 **Answer:** **(e) $r^2 = 4r\\cos\\theta - 6r\\sin\\theta + 4$**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** Substitute $x = r\\cos\\theta$ and $y = r\\sin\\theta$ into the Cartesian equation of the circle.
 $$(r\cos\theta - 2)^2 + (r\sin\theta + 3)^2 = 17$$
@@ -44,7 +44,7 @@ $$r^2 - 4r\cos\theta + 6r\sin\theta + 13 = 17$$
 $$r^2 = 4r\cos\theta - 6r\sin\theta + 17 - 13$$
 $$r^2 = 4r\cos\theta - 6r\sin\theta + 4$$
 
-\</details\>
+</details>
 
 -----
 
@@ -54,8 +54,8 @@ $$r^2 = 4r\cos\theta - 6r\sin\theta + 4$$
 
 **Answer:** **(b) $y = 0$**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** Find the value of $r$ at $\\theta = 2\\pi$.
 $$r = 4(1 - \cos 2\pi) = 4(1 - 1) = 0$$
@@ -78,7 +78,7 @@ $\\frac{dy}{dx} = \\frac{0 \\cdot \\sin(2\\pi) + 0 \\cdot \\cos(2\\pi)}{0 \\cdot
 In cases where the curve passes through the pole, the tangent is given by the line $\\theta = \\alpha$ if $\\frac{dr}{d\\theta} \\neq 0$ at $\\theta = \\alpha$ and $r(\\alpha) = 0$.
 Here, $r(2\\pi) = 0$. The tangent line is simply the radial line $\\theta = 2\\pi$, which is the positive x-axis, or $y=0$. For a cardioid, the tangent at the origin is horizontal.
 
-\</details\>
+</details>
 
 -----
 
@@ -88,8 +88,8 @@ Here, $r(2\\pi) = 0$. The tangent line is simply the radial line $\\theta = 2\\p
 
 **Answer:** **(d) $\\frac{9\\pi}{2} + 9$**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** Use the formula for the area in polar coordinates: $A = \\frac{1}{2} \\int\_{\\alpha}^{\\beta} r^2 d\\theta$.
 Here, $r = 6\\cos\\theta$, $\\alpha = -\\frac{\\pi}{4}$, and $\\beta = \\frac{\\pi}{4}$.
@@ -114,7 +114,7 @@ $$A = 9 \left( \frac{2\pi}{4} + 1 \right)$$
 $$A = 9 \left( \frac{\pi}{2} + 1 \right)$$
 $$A = \frac{9\pi}{2} + 9$$
 
-\</details\>
+</details>
 
 -----
 
@@ -124,8 +124,8 @@ $$A = \frac{9\pi}{2} + 9$$
 
 **Answer:** **(b) $-\\mathbf{i}$**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** First, calculate the cross product inside the parentheses, $\\mathbf{i} \\times \\mathbf{j}$.
 By definition of the right-hand rule for standard unit vectors:
@@ -135,7 +135,7 @@ $$\mathbf{i} \times \mathbf{j} = \mathbf{k}$$
 Using the right-hand rule (or the cyclic property of cross products, $\\mathbf{j} \\times \\mathbf{k} = \\mathbf{i}$, so $\\mathbf{k} \\times \\mathbf{j} = -\\mathbf{i}$):
 $$\mathbf{k} \times \mathbf{j} = -\mathbf{i}$$
 
-\</details\>
+</details>
 
 -----
 
@@ -145,8 +145,8 @@ $$\mathbf{k} \times \mathbf{j} = -\mathbf{i}$$
 
 **Answer:** **(a) $\\cos^{-1}\\left(\\frac{3}{\\sqrt{35}}\\right)$**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** Understand the geometric meaning of vector projection.
 The vector projection of $\\mathbf{u}$ onto $\\mathbf{v}$, denoted as $\\mathrm{proj}*{\\mathbf{v}} \\mathbf{u}$, is a vector that is **parallel** to $\\mathbf{v}$.
@@ -168,7 +168,7 @@ $$\cos\theta = \frac{18}{\sqrt{35} \cdot 6} = \frac{3}{\sqrt{35}}$$
 **Step 6:** Express the angle.
 $$\theta = \cos^{-1}\left(\frac{3}{\sqrt{35}}\right)$$
 
-\</details\>
+</details>
 
 -----
 
@@ -178,8 +178,8 @@ $$\theta = \cos^{-1}\left(\frac{3}{\sqrt{35}}\right)$$
 
 **Answer:** **(a) ${-2, 0, 2}$**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** The volume of a parallelepiped formed by three vectors $\\mathbf{u}, \\mathbf{v}, \\mathbf{w}$ is given by the absolute value of their scalar triple product: $V = |\\mathbf{u} \\cdot (\\mathbf{v} \\times \\mathbf{w})|$.
 
@@ -206,7 +206,7 @@ $$-4b^2 = -16 \implies b^2 = 4 \implies b = \pm 2$$
 **Step 5:** Combine the results.
 The values of $b$ are ${-2, 0, 2}$.
 
-\</details\>
+</details>
 
 -----
 
@@ -216,8 +216,8 @@ The values of $b$ are ${-2, 0, 2}$.
 
 **Answer:** **(a) $x + 2y + z = 18$**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** Identify a normal vector to the plane.
 A plane's normal vector $\\mathbf{n}$ must be perpendicular to any vector lying in the plane.
@@ -243,7 +243,7 @@ $$x - 1 + 2y - 8 + z - 9 = 0$$
 $$x + 2y + z = 1 + 8 + 9$$
 $$x + 2y + z = 18$$
 
-\</details\>
+</details>
 
 -----
 
@@ -253,8 +253,8 @@ $$x + 2y + z = 18$$
 
 **Answer:** **(a) $\\left(\\frac{6}{7}, \\frac{2}{7}, \\frac{11}{7}\\right)$**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** Let a general point on the line be $P(t) = (1 + t, -2t, 2 + 3t)$.
 Let the given point be $Q = (1, 1, 2)$.
@@ -277,7 +277,7 @@ $$y = -2 \left(-\frac{1}{7}\right) = \frac{2}{7}$$
 $$z = 2 + 3 \left(-\frac{1}{7}\right) = \frac{14}{7} - \frac{3}{7} = \frac{11}{7}$$
 The closest point is $\\left(\\frac{6}{7}, \\frac{2}{7}, \\frac{11}{7}\\right)$.
 
-\</details\>
+</details>
 
 -----
 
@@ -287,8 +287,8 @@ The closest point is $\\left(\\frac{6}{7}, \\frac{2}{7}, \\frac{11}{7}\\right)$.
 
 **Answer:** **(c) Elliptic paraboloid**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** Rearrange the equation to the standard form:
 $$z = x^2 + 4y^2$$
@@ -303,7 +303,7 @@ This equation is of the general form $z = \\frac{x^2}{a^2} + \\frac{y^2}{b^2}$.
 **Step 3:** Conclude the type of surface.
 Since the cross-sections perpendicular to the z-axis are ellipses and the cross-sections parallel to the xz-plane or yz-plane are parabolas, the surface is an **elliptic paraboloid**.
 
-\</details\>
+</details>
 
 -----
 
@@ -313,8 +313,8 @@ Since the cross-sections perpendicular to the z-axis are ellipses and the cross-
 
 **Answer:** **(d) level curve**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Explanation:**
 
@@ -325,7 +325,7 @@ Since the cross-sections perpendicular to the z-axis are ellipses and the cross-
 
 Therefore, the correct term is **level curve**.
 
-\</details\>
+</details>
 
 -----
 
@@ -338,8 +338,8 @@ Therefore, the correct term is **level curve**.
 
 **Answer:** **(e) I, II, III**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Statement I: The domain of $f$ is ${(x, y) : y \> -2 }$.**
 For $f(x, y) = \\sqrt{\\frac{x^2}{y+2}}$ to be defined:
@@ -366,7 +366,7 @@ This holds for all $y \> -2$. This statement is **TRUE**.
 
 Since all three statements are true, the correct option is (e).
 
-\</details\>
+</details>
 
 -----
 
@@ -379,8 +379,8 @@ Since all three statements are true, the correct option is (e).
 
 **Answer:** **(c) I, II**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Statement I: It is continuous on its domain.**
 The numerator $\\sin(xy)$ is a composition of continuous functions ($xy$ and $\\sin u$), so it is continuous everywhere.
@@ -434,7 +434,7 @@ Therefore, the limit does not exist. So statement III is **FALSE**.
 
 Thus, only I and II are true.
 
-\</details\>
+</details>
 
 -----
 
@@ -444,8 +444,8 @@ Thus, only I and II are true.
 
 **Answer:** **(d) 3**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** Calculate the partial derivative of $f$ with respect to $x$, $f\_x(x, y)$.
 $$f_x(x, y) = \frac{\partial}{\partial x} (2x) + \frac{\partial}{\partial x} (xy^2) - \frac{\partial}{\partial x} (\sqrt{|3x(y-1)|})$$
@@ -467,7 +467,7 @@ $$f(h, 1) = 2h + h(1)^2 - \sqrt{|3h(1-1)|} = 2h + h - \sqrt{0} = 3h$$
 $$f(0, 1) = 2(0) + 0(1)^2 - \sqrt{|3(0)(1-1)|} = 0$$
 $$f_x(0, 1) = \lim_{h \to 0} \frac{3h - 0}{h} = \lim_{h \to 0} 3 = 3$$
 
-\</details\>
+</details>
 
 -----
 
@@ -477,8 +477,8 @@ $$f_x(0, 1) = \lim_{h \to 0} \frac{3h - 0}{h} = \lim_{h \to 0} 3 = 3$$
 
 **Answer:** **(e) $z \\frac{\\partial w}{\\partial z}$**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** Define intermediate variables for the function $f$.
 Let $u = xz$ and $v = yz$. So, $w = f(u, v)$.
@@ -510,7 +510,7 @@ So, $\\frac{\\partial w}{\\partial z} = \\frac{\\partial f}{\\partial u} (x) + \
 We found $x \\frac{\\partial w}{\\partial x} + y \\frac{\\partial w}{\\partial y} = z (x f\_u + y f\_v)$ and $\\frac{\\partial w}{\\partial z} = x f\_u + y f\_v$.
 Therefore, $x \\frac{\\partial w}{\\partial x} + y \\frac{\\partial w}{\\partial y} = z \\frac{\\partial w}{\\partial z}$.
 
-\</details\>
+</details>
 
 -----
 
@@ -520,8 +520,8 @@ Therefore, $x \\frac{\\partial w}{\\partial x} + y \\frac{\\partial w}{\\partial
 
 **Answer:** **(c) $-\\frac{3}{5}$**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** Differentiate both sides of the equation with respect to $x$, treating $z$ as a function of $x$ and $y$ (i.e., $z(x, y)$).
 $$\frac{\partial}{\partial x}(z^5) + \frac{\partial}{\partial x}(xy e^z) + \frac{\partial}{\partial x}(e^{2x}) = \frac{\partial}{\partial x}(0)$$
@@ -541,7 +541,7 @@ $$\frac{\partial z}{\partial x} = \frac{-(e) e^{-1} - 2e^{2(0)}}{5(-1)^4 + (0)(e
 $$\frac{\partial z}{\partial x} = \frac{-1 - 2(1)}{5(1) + 0}$$
 $$\frac{\partial z}{\partial x} = \frac{-3}{5}$$
 
-\</details\>
+</details>
 
 -----
 
@@ -551,8 +551,8 @@ $$\frac{\partial z}{\partial x} = \frac{-3}{5}$$
 
 **Answer:** **(b) $-4$**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** Calculate the gradient of $f$, $\\nabla f$.
 $$f(x, y, z) = x^2 e^y - \frac{3}{2} z^{4/3}$$
@@ -581,7 +581,7 @@ $$= (-12)(0.6) + (36)(0) + (-4)(-0.8)$$
 $$= -7.2 + 0 + 3.2$$
 $$= -4$$
 
-\</details\>
+</details>
 
 -----
 
@@ -591,8 +591,8 @@ $$= -4$$
 
 **Answer:** **(d) $\\mathbf{i} - \\mathbf{j}$**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** Find the gradient of $f(x, y)$, which points in the direction of the maximum rate of increase of $f$. The derivative in a direction perpendicular to the gradient will be zero.
 $$\nabla f = \left\langle \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \right\rangle$$
@@ -613,7 +613,7 @@ In terms of unit vectors, these are $-\\mathbf{i} + \\mathbf{j}$ or $\\mathbf{i}
 
 Comparing with the options, (d) $\\mathbf{i} - \\mathbf{j}$ is one such direction.
 
-\</details\>
+</details>
 
 -----
 
@@ -623,8 +623,8 @@ Comparing with the options, (d) $\\mathbf{i} - \\mathbf{j}$ is one such directio
 
 **Answer:** **(b) $3x + y - z = 2$**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 **Step 1:** The equation of a tangent plane to a surface $z = f(x, y)$ at a point $(x\_0, y\_0, z\_0)$ is given by:
 $$z - z_0 = f_x(x_0, y_0)(x - x_0) + f_y(x_0, y_0)(y - y_0)$$
@@ -647,7 +647,7 @@ $$z - 2 = 3x + y - 4$$
 $$3x + y - z = 4 - 2$$
 $$3x + y - z = 2$$
 
-\</details\>
+</details>
 
 -----
 
@@ -661,8 +661,8 @@ $$3x + y - z = 2$$
 
 **Answer:** **(b) I, III**
 
-\<details\>
-\<summary\>Solution Steps\</summary\>
+<details>
+<summary>Solution Steps</summary>
 
 Let's analyze each expression:
 
@@ -690,7 +690,7 @@ Let's analyze each expression:
 
 Therefore, only expressions I and III make sense.
 
-\</details\>
+</details>
 
 -----
 
