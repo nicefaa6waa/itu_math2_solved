@@ -172,74 +172,50 @@ $$\theta = \cos^{-1}\left(\frac{3}{\sqrt{35}}\right)$$
 
 -----
 
-You are absolutely correct\! My apologies for rewriting the whole thing and for the persistent LaTeX issues. I will provide only the corrected Problem 7 and Problem 8, ensuring the LaTeX for the determinant matrices is properly formatted this time.
-
-Here are the corrected problems:
-
------
-
 ## Problem 7
 
-**What are all values of $b$ for which the volume of the parallelepiped formed by the vectors $\mathbf{u} = \langle b, 1, -1 \rangle$, $\mathbf{v} = \langle -2, 3, b \rangle$, and $\mathbf{w} = \langle 0, 4, 0 \rangle$ is 8 cubic units?**
+**What are all values of `b` for which the volume of the parallelepiped formed by the vectors**
+`u = <b, 1, -1>`, `v = <-2, 3, b>`, and `w = <0, 4, 0>` **is 8 cubic units?**
 
-**Answer:** **(a) $\{-2, 0, 2\}$**
+**Answer:** **(a) `{ -2, 0, 2 }`**
 
 <details>
 <summary>Solution Step</summary>
 
-**Step 1:** The volume of a parallelepiped formed by three vectors $\mathbf{u}, \mathbf{v}, \mathbf{w}$ is given by the absolute value of their scalar triple product:
+**Step 1:** Use the scalar triple product formula:
+Volume = `|u ⋅ (v × w)|`
 
-$$
-V = |\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})|
-$$
+**Step 2:** Compute `v × w`:
 
-**Step 2:** Calculate the cross product $\mathbf{v} \times \mathbf{w}$:
+```
+v × w = |i   j   k |
+         -2  3   b
+          0  4   0|
 
-$$
-\mathbf{v} \times \mathbf{w} =
-\begin{vmatrix}
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
--2 & 3 & b \\
-0 & 4 & 0
-\end{vmatrix}
-= \mathbf{i}(3 \cdot 0 - b \cdot 4) - \mathbf{j}(-2 \cdot 0 - b \cdot 0) + \mathbf{k}(-2 \cdot 4 - 3 \cdot 0)
-$$
+= i((3)(0) - (b)(4)) - j((-2)(0) - (b)(0)) + k((-2)(4) - (3)(0))
+= i(-4b) - j(0) + k(-8)
+= <-4b, 0, -8>
+```
 
-$$
-= \mathbf{i}(-4b) - \mathbf{j}(0) + \mathbf{k}(-8)
-= \langle -4b, 0, -8 \rangle
-$$
+**Step 3:** Compute the dot product:
 
-**Step 3:** Compute the scalar triple product:
+```
+u ⋅ (v × w) = <b, 1, -1> ⋅ <-4b, 0, -8>
+            = b*(-4b) + 1*0 + (-1)*(-8)
+            = -4b² + 8
+```
 
-$$
-\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w}) = \langle b, 1, -1 \rangle \cdot \langle -4b, 0, -8 \rangle
-= -4b^2 + 0 + 8 = -4b^2 + 8
-$$
+**Step 4:** Set absolute value equal to 8 and solve:
 
-**Step 4:** Solve for $b$ such that:
+```
+|-4b² + 8| = 8
+→ -4b² + 8 = ±8
 
-$$
-| -4b^2 + 8 | = 8
-$$
+Case 1: -4b² + 8 = 8 → b² = 0 → b = 0  
+Case 2: -4b² + 8 = -8 → b² = 4 → b = ±2
+```
 
-**Case 1:**
-
-$$
--4b^2 + 8 = 8 \Rightarrow -4b^2 = 0 \Rightarrow b^2 = 0 \Rightarrow b = 0
-$$
-
-**Case 2:**
-
-$$
--4b^2 + 8 = -8 \Rightarrow -4b^2 = -16 \Rightarrow b^2 = 4 \Rightarrow b = \pm 2
-$$
-
-**Step 5:** Final result:
-
-$$
-b \in \{-2, 0, 2\}
-$$
+**Final Answer:** `{ -2, 0, 2 }`
 
 </details>
 
@@ -247,57 +223,59 @@ $$
 
 ## Problem 8
 
-**Find the equation of the plane that is parallel to the vector $\mathbf{u} = \mathbf{i} - \mathbf{k}$ and contains the line $L$ given by the parametric equations $x = 1 - 2t, y = 4 + 3t, z = 9 - 4t$.**
+**Find the equation of the plane that is parallel to the vector `u = i - k` and contains the line `L` defined by:**
 
-**Answer:** **(a) $x + 2y + z = 18$**
+```
+x = 1 - 2t
+y = 4 + 3t
+z = 9 - 4t
+```
+
+**Answer:** **(a) `x + 2y + z = 18`**
 
 <details>
 <summary>Solution Steps</summary>
 
-**Step 1:** Identify a normal vector to the plane.
+**Step 1:** The line `L` lies in the plane, so its direction vector is:
 
-* The line $L$ lies in the plane, so its direction vector is:
+```
+d_L = <-2, 3, -4>
+```
 
-  $$
-  \mathbf{d}_L = \langle -2, 3, -4 \rangle
-  $$
-* The plane is parallel to $\mathbf{u} = \langle 1, 0, -1 \rangle$, so $\mathbf{u}$ also lies in the plane.
+The plane is also **parallel** to:
 
-A vector perpendicular to both $\mathbf{u}$ and $\mathbf{d}_L$ is the normal vector $\mathbf{n}$, found via the cross product:
+```
+u = <1, 0, -1>
+```
 
-$$
-\mathbf{n} = \mathbf{u} \times \mathbf{d}_L =
-\begin{vmatrix}
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-1 & 0 & -1 \\
--2 & 3 & -4
-\end{vmatrix}
-= \mathbf{i}(0 \cdot -4 - (-1) \cdot 3) - \mathbf{j}(1 \cdot -4 - (-1) \cdot -2) + \mathbf{k}(1 \cdot 3 - 0 \cdot -2)
-$$
+To find the **normal vector** `n`, take the cross product of `d_L` and `u`:
 
-$$
-= \mathbf{i}(3) - \mathbf{j}(-4 - 2) + \mathbf{k}(3)
-= \langle 3, 6, 3 \rangle
-$$
+```
+n = u × d_L = |i   j   k |
+              1   0  -1
+             -2   3  -4|
 
-We can simplify this to $\mathbf{n'} = \langle 1, 2, 1 \rangle$.
+= i(0 * -4 - (-1) * 3) - j(1 * -4 - (-1) * -2) + k(1 * 3 - 0 * -2)
+= i(3) - j(-4 - 2) + k(3)
+= <3, 6, 3>
+```
 
-**Step 2:** Use a point on the plane.
-When $t = 0$, the point on $L$ is $(1, 4, 9)$.
+We can simplify to:
+`n = <1, 2, 1>`
 
-**Step 3:** Use the point-normal form of a plane:
+**Step 2:** Pick a point on the line (e.g., when `t = 0`):
+`P₀ = (1, 4, 9)`
 
-$$
-A(x - x_0) + B(y - y_0) + C(z - z_0) = 0
-$$
+**Step 3:** Use point-normal form:
 
-With $\langle A, B, C \rangle = \langle 1, 2, 1 \rangle$ and point $(1, 4, 9)$:
+```
+n = <A, B, C> = <1, 2, 1>
+(x - x₀)A + (y - y₀)B + (z - z₀)C = 0
 
-$$
-1(x - 1) + 2(y - 4) + 1(z - 9) = 0
-\Rightarrow x - 1 + 2y - 8 + z - 9 = 0
-\Rightarrow x + 2y + z = 18
-$$
+→ 1(x - 1) + 2(y - 4) + 1(z - 9) = 0
+→ x - 1 + 2y - 8 + z - 9 = 0
+→ x + 2y + z = 18
+```
 
 </details>
 
