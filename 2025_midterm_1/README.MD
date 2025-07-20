@@ -148,8 +148,6 @@ $$\int_2^{\infty} \frac{x}{x^2 + 8} dx = \frac{1}{2} \int_{12}^{\infty} \frac{1}
 
 **Step 4:** Since the integral diverges, the series diverges.
 
-İnteqral Testi göstərir ki, bu seriya dağıdır çünki müvafiq integral divergent-dir.
-
 </details>
 
 ---
