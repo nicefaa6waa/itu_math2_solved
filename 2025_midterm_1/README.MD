@@ -12,7 +12,7 @@ Often scientists and engineers simplify a problem by replacing a function with a
 The answer is **(e) series**.
 
 **Explanation:**
-Alimlərin və mühəndislərin funksiyaları yaxınlaşdırmaq üçün istifadə etdikləri əsas alət Taylor və ya Maclaurin seriyalarıdır. Bu seriyalar funksiyaları sonsuz toplam kimi ifadə edir və ilk bir neçə həddini götürərək yaxın nəticələr əldə etmək mümkündür.
+The main tool that scientists and engineers use to approximate functions is the Taylor or Maclaurin series.
 
 </details>
 
@@ -52,7 +52,7 @@ Alimlərin və mühəndislərin funksiyaları yaxınlaşdırmaq üçün istifad�
 
 **Step 1:** We have $\lim_{n \to \infty} \frac{\ln n}{\sqrt{n}}$
 
-**Step 2:** This is of the form $\frac{\infty}{\infty}$, so we can use L'Hôpital's rule:
+**Step 2:** This is of the form $\frac{\infty}{\infty}$, yeni we can use L'Hôpital's rule:
 
 $$\lim_{n \to \infty} \frac{\ln n}{\sqrt{n}} = \lim_{n \to \infty} \frac{\ln n}{n^{1/2}}$$
 
@@ -62,7 +62,7 @@ $$= \lim_{n \to \infty} \frac{\frac{1}{n}}{\frac{1}{2}n^{-1/2}} = \lim_{n \to \i
 
 $$= \lim_{n \to \infty} \frac{2\sqrt{n}}{n} = \lim_{n \to \infty} \frac{2}{\sqrt{n}} = 0$$
 
-Logaritm funksiyası kök funksiyasından yavaş böyüyür, ona görə də bu limit 0-a bərabərdir.
+Logaritm funksiyası kök funksiyasından yavaş böyüyür, ona görə də limit 0 dı.
 
 </details>
 
@@ -75,8 +75,6 @@ Logaritm funksiyası kök funksiyasından yavaş böyüyür, ona görə də bu l
 
 <details>
 <summary>Solution Steps</summary>
-
-Let me analyze each option:
 
 **(a) A monotonic sequence is convergent.**
 FALSE. Counterexample: $a_n = n$ (increasing but divergent)
@@ -93,7 +91,7 @@ FALSE. Should be "bounded above" for nondecreasing sequences.
 **(e) A bounded sequence is convergent if it is monotonic.**
 TRUE. This is the Monotone Convergence Theorem.
 
-Monoton Yaxınlaşma Teoremi: əgər ardıcıllıq monoton və məhduddursa, onda o yaxınlaşır.
+Monotone Convergence Theorem: If a sequence is monotonic and bounded, then it converges.
 
 </details>
 
@@ -178,7 +176,7 @@ Since the comparison series $\sum \frac{1}{\sqrt{n} e^n}$ converges (exponential
 
 We know $\sum \frac{1}{n!}$ converges (it's part of $e$). Also $\frac{1}{n!} \ll \frac{1}{n(n-1)}$ for large $n$. **TRUE**
 
-Statements I və III doğrudur.
+Statements I və III düzdü.
 
 </details>
 
@@ -218,7 +216,7 @@ $$= \lim_{n \to \infty} \left|\frac{\cos((n+1)^2)}{\cos(n^2)}\right| \cdot \frac
 
 The series converges absolutely by the Ratio Test.
 
-Faktorial paydasında eksponensial böluci çox güclü olduğu üçün seriya mütləq yaxınlaşır.
+Since the exponential term in the denominator grows very rapidly, the series absolutely converges.
 
 </details>
 
@@ -238,7 +236,7 @@ $S_1 \leq S_2 \leq S_3 \leq ...$
 
 By the Monotone Convergence Theorem, this sequence converges if and only if it is bounded above.
 
-Müsbet həddli seriyaların yaxınlaşması üçün qismən toplam ardıcıllığının yuxarıdan məhdud olması zəruridir və kafi şərtdir.
+Müsbət termli seriyaların yaxınlaşması üçün partial sum sequence yuxarıdan bounded olmalıdı.
 
 </details>
 
@@ -350,8 +348,6 @@ $$\tan^{-1} u = \sum_{n=0}^{\infty} \frac{(-1)^n u^{2n+1}}{2n+1}, \quad |u| \leq
 
 $$\tan^{-1}(x^2) = \sum_{n=0}^{\infty} \frac{(-1)^n (x^2)^{2n+1}}{2n+1} = \sum_{n=0}^{\infty} \frac{(-1)^n x^{4n+2}}{2n+1}$$
 
-Bu funksiya üçün ən uyğun seriya forması seçimlərdən birinə uyğun olmalıdır.
-
 </details>
 
 ---
@@ -379,8 +375,6 @@ Our series has terms $x^{2n}$, so it converges for $|x^2| < 1$, i.e., $|x| < 1$.
 
 **Statement III:** Taylor polynomials of orders $2n$ and $2n+1$ are identical.
 Since all terms have even powers of $x$, adding one more term (which would be odd power) adds zero. **TRUE**.
-
-İkinci və üçüncü bəyanatlar doğrudur.
 
 </details>
 
@@ -436,10 +430,10 @@ Since all terms have even powers of $x$, adding one more term (which would be od
 
 ## Summary of Answers - Cavabların Xülasəsi
 
-1. **(e) series** - Seriya termindir
+1. **(e) series** - Seriya
 2. **Not solved yet**
 3. **Not solved yet**
-4. **(a) 0** - L'Hôpital qaydası
+4. **(a) 0** - L'Hôpital
 5. **(e) A bounded sequence is convergent if it is monotonic** - Monoton Yaxınlaşma Teoremi
 6. **(b) The series converges only for |r| < 1** - Həndəsi seriya
 7. **(c) The series is divergent** - İnteqral Testi
@@ -458,19 +452,3 @@ Since all terms have even powers of $x$, adding one more term (which would be od
 20. **Not solved yet**
 
 ---
-
-## Qeydlər və Tövsiyələr
-
-Bu məsələlər riyazi analizdə əsas mövzuları əhatə edir:
-- Ardıcıllıqlar və limitlər
-- Sonsuz seriyalar və yaxınlaşma testləri
-- Güc seriyaları və Taylor inkişafları
-- Parametrik əyrilər
-
-Uğurlu həll üçün:
-1. Hər test üçün şərtləri yaxşı bilin
-2. Standart seriyaları əzbərləyin
-3. L'Hôpital qaydasını düzgün tətbiq edin
-4. Limitləri diqqətlə hesablayın
-
-Bu problemlər calculus kursunun əsas materialını əks etdirir və final imtahanı üçün yaxşı hazırlıq təşkil edir.
